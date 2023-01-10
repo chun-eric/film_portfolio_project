@@ -6,11 +6,11 @@ import { Actors, MovieInformation, Movies, Navbar, Profile } from '.';
 const App = () => (
 
   <BrowserRouter>
-    <div sx={{ backgroundColor: '#fff', display: 'flex', height: '100%' }}>
+    <div style={{ backgroundColor: '#fff', display: 'flex', height: '100%' }}>
       <CssBaseline />
       <Navbar />
-      <main sx={{ padding: '2em', flexGrow: 1 }}>
-        <div  sx={{ height: '70px' }}>
+      <main style={{ padding: '2em', flexGrow: 1 }}>
+        <div style={{ height: '70px' }}>
           <Routes>
             <Route exact path="/" element={<Movies />} />
             <Route path="/movie/:id" element={<MovieInformation />} />
