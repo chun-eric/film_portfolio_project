@@ -46,7 +46,7 @@ const Sidebar = ({ setMobileOpen }) => {
         <ListSubheader>Genres</ListSubheader>
         {demoCategories.map(({ label, value }) => (
           <Link key={value} style={{ color: theme.palette.text.primary, textDecoration: 'none' }} to="/">
-            <ListItem onClick={() => {}} ListItemButton>
+            <ListItem onClick={() => {}} listitembutton>
               {/* <ListItemIcon>
                 <img src={redLogo} style={{ filter: theme.palette.mode === 'dark' ? 'dark ' : 'invert(1)' }} height={30} />
               </ListItemIcon> */}
